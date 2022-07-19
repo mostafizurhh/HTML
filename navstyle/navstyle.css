@@ -19,6 +19,7 @@ nav>ul {
 
 .dropdown {
     display: none;
+    position: absolute;
 }
 
 nav>ul>li:hover>ul {
