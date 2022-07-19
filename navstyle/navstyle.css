@@ -16,3 +16,7 @@ nav li a {
 nav>ul {
     display: flex;
 }
+
+.dropdown {
+    display: none;
+}
