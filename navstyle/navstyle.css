@@ -20,3 +20,7 @@ nav>ul {
 .dropdown {
     display: none;
 }
+
+nav>ul>li:hover>ul {
+    display: block;
+}
