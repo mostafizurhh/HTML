@@ -6,65 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Form Tag</title>
+    <style>
+        header {
+            text-align: center;
+            color: mediumpurple;
+        }
+
+        table {
+
+            color: coral;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 2px solid blue;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <h1>
+            Mishti Mela
+        </h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+        </table>
+    </header>
     <form action="">
-        <h1>Fab. Pitha Mohol</h1>
+        <h5>
+            Order Form
+        </h5>
         <p>
-            Name: <input type="Name" placeholder="Enter your name" name="name" id="">
+            Name:
+            <input type="text" placeholder="Enter your Name" name="name" id="">
         </p>
         <p>
-            Email: <input type="Name" placeholder="Enter your email" name="email" id="">
+            Email:
+            <input type="text" placeholder="Enter your email" name="email" id="">
         </p>
-        <fieldset>
-            <legend>
-                Select your pitha
-            </legend>
-            <p>
-                <label for="vapa">
-                    <input type="radio" name="pitha" id="vapa">vapa
-                </label>
-            </p>
-            <p>
-                <label for="tell">
-                    <input type="radio" name="pitha" id="tell">tell ar pitha
-                </label>
-            </p>
-            <p>
-                <label for="chitoy">
-                    <input type="radio" name="pitha" id="chitoy">chitoy
-                </label>
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend>
-                Choose your vorta
-            </legend>
-            <p>
-                <label for="sorisha">
-                    <input type="checkbox" name="vorta" id="sorisha">
-                    Sorisha
-                </label>
-            </p>
-            <p>
-                <label for="shutki">
-                    <input type="checkbox" name="vorta" id="shutki">
-                    Shutki
-                </label>
-            </p>
-            <p>
-                <label for="morich">
-                    <input type="checkbox" name="vorta" id="morich">
-                    Morich
-                </label>
-            </p>
-        </fieldset>
         <p>
-            Special Instruction
-            <br>
-            <textarea name="Special instruction" id="" cols="30" rows="10"></textarea>
+            Address:
+            <input type="text" placeholder="Enter your address" name="address" id="">
         </p>
+
     </form>
 </body>
 
