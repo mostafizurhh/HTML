@@ -13,6 +13,6 @@ nav li a {
     color: black;
 }
 
-nav ul {
+ul {
     display: flex;
 }
